@@ -1,0 +1,500 @@
+/* NAVBAR */
+@media screen and (max-width: 768px) {
+   
+}
+@media only screen and (max-width:1213px){
+    
+}
+@media only screen and (max-width:992px){
+    
+}
+@media only screen and (max-width:768px){
+    /* #menu {
+        transform: none;
+        opacity: 0;
+    
+        transition: opacity 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+      } */
+}
+/* NAVBAR-END */
+@media only screen and (max-width:1200px){
+ #return-to-top{
+   display: none !important;
+ }
+ #Galery-mobile{
+   display: block !important;
+ }
+ #Galery{
+  display: none;
+}
+}
+@media only screen and (max-width:992px){
+  
+}
+@media only screen and (max-width:768px){
+  #Home .home-img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#Home .home-img {
+  position: relative;
+  top: -48px !important;
+  left: 0px !important;
+  margin: 20px 0;
+}
+#Home .home-btn{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#Home .home-item span {
+font-size: 15px !important;
+letter-spacing: 1px;
+color: #3153FB;
+}
+#Home .home-item{
+text-align: center;
+}
+#Home .home-item h1{
+font-size: 45px !important;
+font-weight: 500;
+}
+#Home .home-item p {
+font-size: 15px !important;
+font-weight: 400;
+}
+#Home .home {
+flex-direction: column-reverse;
+padding: 30px 0;
+display: flex;
+align-items: center;
+}
+/* Contact-me */
+#Contact-me .forum {
+  background-color: #3153FB;
+  width: 100%;
+  height: auto !important;
+  padding: 20px 35px;
+}
+#Contact-me .forum form .name-input {
+  display: flex;
+  flex-direction: column !important;
+}
+#Contact-me .forum .form-title h1 {
+  color: #fff;
+  font-size: 42px !important;
+} 
+#Contact-me .forum .form-title p {
+  color: #fff;
+  font-size: 16px !important;
+}
+#Contact-me .info {
+background-color: #fff;
+width: 100%;
+height: 45px !important;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+#Contact-me .info span {
+font-size: 12px !important;
+color: #000;
+font-weight: 600;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#Contact-me .info span i {
+font-size: 14px !important;
+margin: 0 8px;
+}
+/* Contact-me end */
+.about{
+  padding: 10px 10px !important;
+}
+#About .about-text h1 {
+  text-align: center !important;
+  font-size: 42px !important;
+  color: #000;
+}
+#About .about-text p {
+    font-size: 16px !important;
+    text-align: center;
+    font-weight: 400;
+    line-height: 25px !important;
+    margin-top: 1rem !important;
+}
+.angry-gridd{
+  gap: 10px !important;
+}
+.angry-gridd img{
+  width: 100% !important;
+  height: auto;
+}
+#itemm-0{
+  display: none;
+}
+#itemm-2 {
+  grid-row-start: 1 !important;
+  grid-column-start: 1 !important;
+  grid-row-end: 1 !important;
+  grid-column-end: 3 !important;
+}
+#itemm-1 {
+  grid-column-start: 1 !important;
+  grid-row-end: 3 !important;
+  grid-column-end: 5 !important;
+}
+#itemm-3 {
+  grid-row-start: 1 !important;
+  grid-column-start: 5 !important;
+  grid-row-end: 1 !important;
+  grid-column-end: 3 !important;
+}
+/* Project  */
+.pr-card{
+  padding: 0 10px !important;
+}
+/* Project End */
+/* Vertical Slider */
+#Vertical-slider .slick-div .vertical-slider .slider-left h1 {
+  font-size: 30px !important;
+  margin: 10px 0;
+}
+#Vertical-slider .slick-div .vertical-slider .slider-left h1 img {
+  width: 30px;
+}
+
+#Vertical-slider .slick-div .vertical-slider .slider-left p {
+  font-size: 14px !important;
+  margin-top: 20px;
+  font-weight: 400;
+}
+#Vertical-slider .slider-right img{
+  width: 100% !important;
+}
+#Vertical-slider .slick-div {
+    width: 100% !important;
+    margin: 0 !important;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 40px !important;
+  height: 10px !important;
+  margin: 0 4px !important;
+  cursor: pointer;
+}
+#Project .project-card {
+  width:100% !important;
+  height: 220px;
+  background-color: #fff;
+  margin: 20px 0px !important;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 19px 0px #00000012;
+}
+/* Vertical Slider End */
+}
+@media only screen and (max-width:600px){
+  #Home .home-img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#Home .home {
+  flex-direction: column-reverse;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+}
+.angry-gridd {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  gap: 30px;
+  height: 100%;
+}
+.slick-dots {
+  transform: none !important;
+  top: 100% !important;
+  position: absolute;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: end;
+  right: 20% !important;
+}
+}
+@media only screen and (max-width:550px){
+  #Home .home-img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#Home .home {
+  flex-direction: column-reverse;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+}
+#Media .line {
+ display: none;
+}
+.slick-dots {
+  transform: none !important;
+  bottom: 10% !important;
+  position: absolute;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: end;
+  right: 15% !important;
+}
+#Vertical-slider .slick-div .vertical-slider {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 !important;
+}
+}
+@media only screen and (max-width:500px){
+  #Home .home-img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#Home .home {
+  flex-direction: column-reverse;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+}
+.media-video button i {
+  right: 130px !important;
+  bottom: 55px !important;
+  position: relative;
+  font-size: 25px;
+  color: #000;
+  background: #fff;
+  margin: auto;
+  padding: 12px 15px;
+  border-radius: 50%;
+}
+#Project .project-card {
+  width: 100% !important;
+  height: 220px;
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 19px 0px #00000012;
+}
+.media-text {
+  position: relative;
+  top: -45px !important;
+  left: 75px !important;
+}
+.numbers .number-title h1 {
+  color: #fff;
+  font-size: 41px !important;
+}
+}
+@media only screen and (max-width:400px){
+ 
+}
+@media only screen and (max-width:375px){
+#Home .home-img {
+  position: relative;
+  top: -49px !important;
+  left: 0 !important;
+  margin: 20px 0px 0px 15px;
+}
+#Home .home-btn{
+  display: flex;
+  align-items: center;
+}
+#Home .home-item span {
+  font-size: 15px !important;
+  letter-spacing: 1px;
+  color: #3153FB;
+}
+#Home .home-item{
+  text-align: center;
+}
+#Home .home-item h1{
+  font-size: 45px !important;
+  font-weight: 500;
+}
+#Home .home-item p {
+  font-size: 15px !important;
+  font-weight: 400;
+}
+#Home .home {
+  flex-direction: column-reverse;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+}
+#Vertical-slider .slick-div .vertical-slider .slider-left h1 {
+  font-size: 30px !important;
+  margin: 10px 0;
+}
+#Vertical-slider .slick-div .vertical-slider .slider-left h1 img {
+  width: 30px;
+}
+
+#Vertical-slider .slick-div .vertical-slider .slider-left p {
+  font-size: 14px !important;
+  margin-top: 20px;
+  font-weight: 400;
+}
+#Vertical-slider .slider-right img{
+  width: 100% !important;
+}
+#Vertical-slider .slick-div {
+    width: 100% !important;
+    margin: 0 !important;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 40px !important;
+  height: 10px !important;
+  margin: 0 4px !important;
+  cursor: pointer;
+}
+.slick-dots {
+  transform: none !important;
+  bottom: 10% !important;
+  position: absolute;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: end;
+  right: 15% !important;
+}
+ 
+  /* Contact-me */
+  #Contact-me .forum {
+    background-color: #3153FB;
+    width: 100%;
+    height: auto !important;
+    padding: 20px 35px;
+  }
+  #Contact-me .forum form .name-input {
+    display: flex;
+    flex-direction: column !important;
+  }
+  #Contact-me .forum .form-title h1 {
+    color: #fff;
+    font-size: 42px !important;
+  } 
+  #Contact-me .forum .form-title p {
+    color: #fff;
+    font-size: 16px !important;
+  }
+  #Contact-me .info {
+  background-color: #fff;
+  width: 100%;
+  height: 45px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  }
+  #Contact-me .info span {
+  font-size: 12px !important;
+  color: #000;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  #Contact-me .info span i {
+  font-size: 14px !important;
+  margin: 0 8px;
+  }
+/* Contact-me end */
+
+/* Galery */
+
+/* Galery */
+
+}
+@media only screen and (max-width:350px){
+  #Home .home {
+    flex-direction: column-reverse;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+  }
+  #Home .home-img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  #Numbers .numbers .number-title h1 {
+  color: #fff;
+  font-size: 40px !important;
+  }
+  .numbers .number-title {
+  text-align: center !important;
+  padding: 20px 30px !important;
+  }
+  .numbers-box {
+    display: flex;
+    text-align: center;
+    padding: 20px 20px;
+}
+.media-text {
+  position: relative;
+  top: -45px !important;
+  left: 79px !important;
+}
+#Media .line {
+  position: relative;
+  top: 100px;
+  left: 240px;
+  width: 60px;
+  height: 6px;
+  border-radius: 6px;
+  background-color: #3153FB;
+}
+
+/* Footer */
+#Contact-me .forum {
+  background-color: #3153FB;
+  width: 100%;
+  height: auto !important;
+  padding: 20px 35px;
+}
+#Contact-me .forum form .name-input {
+  display: flex;
+  flex-direction: column !important;
+}
+}
+
+@media screen and (min-width: 800px) {
+  
+  .img{
+    height: 50%;  
+  }
+  
+  .img-1,
+  .img-4 {
+    width: 25%;
+  }
+
+  .img-2,
+  .img-3 {
+    width: 41%;
+  }
+}
